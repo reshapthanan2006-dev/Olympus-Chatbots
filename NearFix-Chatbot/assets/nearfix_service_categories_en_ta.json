@@ -1,0 +1,309 @@
+{
+  "scope": "commercial_nearby_services_only",
+  "status": "planned service catalogue; not a live provider list",
+  "services": [
+    {
+      "id": "mechanic",
+      "name": {
+        "en": "Mechanic / Vehicle Repair",
+        "ta": "வாகனப் பழுதுபார்ப்பு"
+      },
+      "examples": {
+        "en": [
+          "car not starting",
+          "motorcycle not starting",
+          "flat tyre",
+          "engine trouble",
+          "roadside breakdown"
+        ],
+        "ta": [
+          "கார் ஸ்டார்ட் ஆகவில்லை",
+          "மோட்டார் சைக்கிள் ஸ்டார்ட் ஆகவில்லை",
+          "டயர் காற்றிழந்தது",
+          "என்ஜின் பிரச்சினை",
+          "வாகனம் பழுதடைந்தது"
+        ]
+      },
+      "phrases_for_rule_matching": {
+        "en": [
+          "mechanic",
+          "vehicle",
+          "motorcycle",
+          "bike",
+          "car",
+          "tyre",
+          "engine",
+          "roadside"
+        ],
+        "ta": [
+          "மெக்கானிக்",
+          "வாகனம்",
+          "மோட்டார் சைக்கிள்",
+          "பைக்",
+          "கார்",
+          "டயர்",
+          "என்ஜின்"
+        ]
+      },
+      "proposed_only": true
+    },
+    {
+      "id": "plumber",
+      "name": {
+        "en": "Plumbing",
+        "ta": "குழாய்ப்பணி"
+      },
+      "examples": {
+        "en": [
+          "pipe leak",
+          "no water",
+          "tap damaged",
+          "toilet blocked",
+          "water tank problem"
+        ],
+        "ta": [
+          "குழாயில் நீர் கசிவு",
+          "தண்ணீர் வரவில்லை",
+          "குழாய் திறப்பான் பழுது",
+          "கழிப்பறை அடைப்பு",
+          "நீர்த்தொட்டி பிரச்சினை"
+        ]
+      },
+      "phrases_for_rule_matching": {
+        "en": [
+          "plumber",
+          "plumbing",
+          "pipe",
+          "leak",
+          "tap",
+          "toilet",
+          "water tank"
+        ],
+        "ta": [
+          "குழாய்ப்பணி",
+          "குழாய்",
+          "நீர் கசிவு",
+          "தண்ணீர் கசிவு",
+          "திறப்பான்",
+          "கழிப்பறை",
+          "நீர்த்தொட்டி"
+        ]
+      },
+      "proposed_only": true
+    },
+    {
+      "id": "electrician",
+      "name": {
+        "en": "Electrical Work",
+        "ta": "மின்சார வேலை"
+      },
+      "examples": {
+        "en": [
+          "damaged wiring",
+          "socket not working",
+          "switch fault",
+          "power problem"
+        ],
+        "ta": [
+          "மின்கம்பி சேதம்",
+          "மின் சாக்கெட் வேலை செய்யவில்லை",
+          "சுவிட்ச் பழுது",
+          "மின்சாரம் இல்லை"
+        ]
+      },
+      "phrases_for_rule_matching": {
+        "en": [
+          "electrician",
+          "electrical",
+          "wiring",
+          "socket",
+          "switch",
+          "electricity",
+          "power"
+        ],
+        "ta": [
+          "மின்சாரம்",
+          "மின்கம்பி",
+          "மின் இணைப்பு",
+          "சாக்கெட்",
+          "சுவிட்ச்",
+          "மின்சார நிபுணர்"
+        ]
+      },
+      "proposed_only": true
+    },
+    {
+      "id": "ac",
+      "name": {
+        "en": "Air-conditioning Repair",
+        "ta": "குளிரூட்டி பழுதுபார்ப்பு"
+      },
+      "examples": {
+        "en": [
+          "AC is not cooling",
+          "air conditioner broken"
+        ],
+        "ta": [
+          "குளிரூட்டி குளிர்விக்கவில்லை",
+          "ஏசி பழுதடைந்தது"
+        ]
+      },
+      "phrases_for_rule_matching": {
+        "en": [
+          "air conditioner",
+          "air conditioning",
+          "ac repair",
+          "not cooling"
+        ],
+        "ta": [
+          "குளிரூட்டி",
+          "ஏசி",
+          "குளிர்விக்கவில்லை"
+        ]
+      },
+      "proposed_only": true
+    },
+    {
+      "id": "locksmith",
+      "name": {
+        "en": "Locksmith",
+        "ta": "பூட்டு வேலை"
+      },
+      "examples": {
+        "en": [
+          "lock broken",
+          "lost key",
+          "door lock jammed"
+        ],
+        "ta": [
+          "பூட்டு பழுது",
+          "சாவி தொலைந்தது",
+          "கதவுப் பூட்டு அடைந்தது"
+        ]
+      },
+      "phrases_for_rule_matching": {
+        "en": [
+          "locksmith",
+          "lock",
+          "lost key",
+          "key stuck"
+        ],
+        "ta": [
+          "பூட்டு",
+          "சாவி",
+          "பூட்டு வேலை"
+        ]
+      },
+      "proposed_only": true
+    },
+    {
+      "id": "cleaning",
+      "name": {
+        "en": "Cleaning",
+        "ta": "சுத்தம் செய்தல்"
+      },
+      "examples": {
+        "en": [
+          "home cleaning",
+          "office cleaning"
+        ],
+        "ta": [
+          "வீடு சுத்தம் செய்தல்",
+          "அலுவலகம் சுத்தம் செய்தல்"
+        ]
+      },
+      "phrases_for_rule_matching": {
+        "en": [
+          "cleaning",
+          "cleaner",
+          "clean house"
+        ],
+        "ta": [
+          "சுத்தம்",
+          "துப்புரவு"
+        ]
+      },
+      "proposed_only": true
+    },
+    {
+      "id": "carpenter",
+      "name": {
+        "en": "Carpentry",
+        "ta": "தச்சு வேலை"
+      },
+      "examples": {
+        "en": [
+          "wooden door repair",
+          "furniture repair"
+        ],
+        "ta": [
+          "மரக் கதவு பழுது",
+          "மரச்சாமான் பழுதுபார்ப்பு"
+        ]
+      },
+      "phrases_for_rule_matching": {
+        "en": [
+          "carpenter",
+          "carpentry",
+          "woodwork",
+          "furniture"
+        ],
+        "ta": [
+          "தச்சு",
+          "மர வேலை",
+          "மரச்சாமான்",
+          "மரக் கதவு"
+        ]
+      },
+      "proposed_only": true
+    },
+    {
+      "id": "phone_repair",
+      "name": {
+        "en": "Phone Repair",
+        "ta": "கைபேசி பழுதுபார்ப்பு"
+      },
+      "examples": {
+        "en": [
+          "phone screen broken",
+          "phone not charging"
+        ],
+        "ta": [
+          "கைபேசித் திரை உடைந்தது",
+          "கைபேசி சார்ஜ் ஆகவில்லை"
+        ]
+      },
+      "phrases_for_rule_matching": {
+        "en": [
+          "phone repair",
+          "mobile phone",
+          "smartphone",
+          "phone screen",
+          "charging port"
+        ],
+        "ta": [
+          "கைபேசி",
+          "தொலைபேசி",
+          "திரை",
+          "சார்ஜ்",
+          "மொபைல்"
+        ]
+      },
+      "proposed_only": true
+    }
+  ],
+  "special_cases": [
+    {
+      "en": "A standalone word such as battery is ambiguous (vehicle versus phone). Ask whether it is a car, motorcycle, or phone before assigning a category.",
+      "ta": "பேட்டரி என்ற சொல் மட்டும் வாகனமா கைபேசியா என்பதைத் தெளிவுபடுத்தாது. முதலில் எது என்று கேட்கவும்."
+    },
+    {
+      "en": "Urgent or dangerous situations require safety messaging. The chatbot is not an emergency dispatch system.",
+      "ta": "உடனடி ஆபத்தில் பாதுகாப்பு வழிகாட்டல் வழங்கவும். உரையாடல் உதவியாளர் அவசர மீட்பு அனுப்பும் அமைப்பு அல்ல."
+    },
+    {
+      "en": "Never use a single short keyword such as ac as a substring inside another word. Use word boundaries or explicit phrases.",
+      "ta": "AC போன்ற குறுகிய சொற்களை வேறு சொற்களின் பகுதியாக மட்டும் வைத்து வகைப்படுத்த வேண்டாம்."
+    }
+  ]
+}

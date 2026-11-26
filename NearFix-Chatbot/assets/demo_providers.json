@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Demo Mechanic A",
+    "service": "Mechanic",
+    "area": "Jaffna",
+    "specialty": "Motorcycle battery and engine checks"
+  },
+  {
+    "name": "Demo Mechanic B",
+    "service": "Mechanic",
+    "area": "Jaffna",
+    "specialty": "General vehicle repair"
+  },
+  {
+    "name": "Demo Mechanic C",
+    "service": "Mechanic",
+    "area": "Nallur",
+    "specialty": "Bike servicing and tyre repair"
+  },
+  {
+    "name": "Demo Plumber A",
+    "service": "Plumber",
+    "area": "Nallur",
+    "specialty": "Pipe leaks and bathroom plumbing"
+  },
+  {
+    "name": "Demo Plumber B",
+    "service": "Plumber",
+    "area": "Jaffna",
+    "specialty": "Tap and water-line repairs"
+  },
+  {
+    "name": "Demo Electrician A",
+    "service": "Electrician",
+    "area": "Jaffna",
+    "specialty": "Home wiring and socket faults"
+  },
+  {
+    "name": "Demo Electrician B",
+    "service": "Electrician",
+    "area": "Chavakachcheri",
+    "specialty": "Lighting and power issues"
+  },
+  {
+    "name": "Demo AC Technician A",
+    "service": "AC Technician",
+    "area": "Point Pedro",
+    "specialty": "AC servicing and cooling problems"
+  },
+  {
+    "name": "Demo Locksmith A",
+    "service": "Locksmith",
+    "area": "Nallur",
+    "specialty": "Door lock repairs"
+  },
+  {
+    "name": "Demo Carpenter A",
+    "service": "Carpenter",
+    "area": "Jaffna",
+    "specialty": "Cupboard and furniture repairs"
+  }
+]

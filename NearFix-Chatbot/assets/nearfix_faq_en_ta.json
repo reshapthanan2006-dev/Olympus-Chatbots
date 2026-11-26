@@ -1,0 +1,635 @@
+{
+  "product": "NearFix standalone customer chatbot only",
+  "language_codes": [
+    "en",
+    "ta"
+  ],
+  "language_policy": "English and Tamil only; no Tanglish",
+  "source_policy": {
+    "nearfix_service_app": "Project_Summary_Nearby_Service_App.txt (original commercial-nearby-services concept)",
+    "prototype": "Standalone rule-based chatbot, not a live marketplace",
+    "languages": "English and Tamil only"
+  },
+  "faq": [
+    {
+      "id": "NF-FAQ-001",
+      "topic": "about",
+      "status": "concept",
+      "question": {
+        "en": "What is NearFix?",
+        "ta": "NearFix என்றால் என்ன?"
+      },
+      "answer": {
+        "en": "NearFix is a proposed Sri Lankan app that helps customers find and request nearby service providers for everyday repairs and services. The final service marketplace is not yet live.",
+        "ta": "NearFix என்பது அன்றாட பழுதுபார்ப்பு மற்றும் சேவைகளுக்காக அருகிலுள்ள சேவை வழங்குநர்களைக் கண்டறிந்து சேவை கோர உதவத் திட்டமிடப்பட்ட இலங்கைச் செயலி. முழு சேவைத் தளம் இன்னும் செயல்பாட்டுக்கு வரவில்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-002",
+      "topic": "about",
+      "status": "concept",
+      "question": {
+        "en": "Who is NearFix for?",
+        "ta": "NearFix யாருக்கானது?"
+      },
+      "answer": {
+        "en": "The proposed platform serves customers who need help and service providers who offer work such as repairs, cleaning, and carpentry.",
+        "ta": "உதவி தேவைப்படும் வாடிக்கையாளர்களுக்கும் பழுதுபார்ப்பு, சுத்தம் செய்தல், தச்சு வேலை போன்ற சேவைகளை வழங்குபவர்களுக்கும் இந்தத் தளம் திட்டமிடப்பட்டுள்ளது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-003",
+      "topic": "about",
+      "status": "concept",
+      "question": {
+        "en": "What problems does NearFix solve?",
+        "ta": "NearFix எந்தப் பிரச்சினையைத் தீர்க்கிறது?"
+      },
+      "answer": {
+        "en": "It aims to reduce the difficulty of finding a suitable, nearby, available provider by combining service categories, location, provider information, and requests in one app.",
+        "ta": "பொருத்தமான, அருகிலுள்ள, சேவை வழங்கத் தயாரான நபரைக் கண்டுபிடிப்பதில் உள்ள சிரமத்தை குறைப்பதே நோக்கம். சேவை வகைகள், இடம், வழங்குநர் விவரங்கள், கோரிக்கைகள் அனைத்தையும் ஒரே செயலியில் இணைக்கத் திட்டமிடப்பட்டுள்ளது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-004",
+      "topic": "about",
+      "status": "concept",
+      "question": {
+        "en": "What services are planned?",
+        "ta": "என்னென்ன சேவைகள் உள்ளன?"
+      },
+      "answer": {
+        "en": "Mechanic and vehicle repair, plumbing, electrical work, air-conditioning repair, locksmith work, cleaning, carpentry, and phone repair are the main proposed categories. More may be added later.",
+        "ta": "வாகனப் பழுதுபார்ப்பு, குழாய்ப்பணி, மின்சார வேலை, குளிரூட்டி பழுதுபார்ப்பு, பூட்டு வேலை, சுத்தம் செய்தல், தச்சு வேலை, கைபேசி பழுதுபார்ப்பு ஆகியவை முக்கியமாகத் திட்டமிடப்பட்ட சேவை வகைகள். பின்னர் மேலும் சேர்க்கப்படலாம்."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-005",
+      "topic": "about",
+      "status": "not_live",
+      "question": {
+        "en": "Is the complete NearFix app available now?",
+        "ta": "முழுமையான NearFix செயலி இப்போது கிடைக்கிறதா?"
+      },
+      "answer": {
+        "en": "No. The current work is a standalone customer chatbot prototype. The full booking, provider, payment, and tracking systems are not confirmed as implemented.",
+        "ta": "இல்லை. தற்போது வாடிக்கையாளர்களுக்கான தனித்த உரையாடல் உதவியாளர் மாதிரி உருவாக்கப்படுகிறது. முழுமையான முன்பதிவு, வழங்குநர், கட்டணம், கண்காணிப்பு வசதிகள் செயல்படுத்தப்பட்டதாக உறுதி செய்யப்படவில்லை."
+      },
+      "source": "prototype"
+    },
+    {
+      "id": "NF-FAQ-006",
+      "topic": "about",
+      "status": "prototype",
+      "question": {
+        "en": "What can this chatbot do?",
+        "ta": "இந்த உரையாடல் உதவியாளர் என்ன செய்யும்?"
+      },
+      "answer": {
+        "en": "This prototype can explain the NearFix concept, answer documented FAQs, identify common service categories, collect a problem and area, and show fictional demo providers if the sample-data feature is installed. It cannot book a real job.",
+        "ta": "NearFix பற்றிய தகவல்களை விளக்குதல், பொதுக் கேள்விகளுக்கு பதிலளித்தல், பொதுவான சேவை வகைகளை அடையாளம் காணுதல், பிரச்சினை மற்றும் பகுதியைக் கேட்குதல், மாதிரித் தரவு இணைக்கப்பட்டிருந்தால் கற்பனை வழங்குநர்களைக் காட்டுதல் ஆகியவற்றைச் செய்யலாம். உண்மையான சேவைக் கோரிக்கையை பதிவு செய்ய முடியாது."
+      },
+      "source": "prototype"
+    },
+    {
+      "id": "NF-FAQ-007",
+      "topic": "about",
+      "status": "prototype",
+      "question": {
+        "en": "Which languages does the chatbot support?",
+        "ta": "உரையாடல் உதவியாளர் எந்த மொழிகளை ஆதரிக்கும்?"
+      },
+      "answer": {
+        "en": "The chatbot supports English and Tamil and automatically detects which language you type in. Tanglish is outside the requested scope.",
+        "ta": "இந்த உரையாடல் உதவியாளர் ஆங்கிலத்தையும் தமிழையும் மட்டுமே ஆதரிக்கிறது; நீங்கள் தட்டச்சு செய்யும் மொழியைத் தானாகவே கண்டறிந்து பதிலளிக்கும். தமிழை ஆங்கில எழுத்துகளில் எழுதும் Tanglish தற்போதைய வரம்பில் இல்லை."
+      },
+      "source": "user_scope"
+    },
+    {
+      "id": "NF-FAQ-008",
+      "topic": "account",
+      "status": "planned",
+      "question": {
+        "en": "Do I need an account?",
+        "ta": "கணக்கு உருவாக்க வேண்டுமா?"
+      },
+      "answer": {
+        "en": "The proposed full app includes customer registration and login. The current standalone FAQ chatbot does not need customer authentication.",
+        "ta": "முழு செயலியில் வாடிக்கையாளர் பதிவு மற்றும் உள்நுழைவு திட்டமிடப்பட்டுள்ளது. தற்போதைய தனித்த தகவல் உரையாடல் உதவியாளருக்கு உள்நுழைவு தேவையில்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-009",
+      "topic": "account",
+      "status": "planned",
+      "question": {
+        "en": "How do I register as a customer?",
+        "ta": "வாடிக்கையாளராக எப்படி பதிவு செய்வது?"
+      },
+      "answer": {
+        "en": "The proposed app will provide customer registration and login screens. Exact account fields and the registration process will be finalized during full-app development.",
+        "ta": "முழு செயலியில் வாடிக்கையாளர் பதிவும் உள்நுழைவு திரைகளும் திட்டமிடப்பட்டுள்ளன. தேவையான விவரங்களும் நடைமுறையும் முழுச் செயலி உருவாக்கும்போது இறுதி செய்யப்படும்."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-010",
+      "topic": "account",
+      "status": "planned",
+      "question": {
+        "en": "Can I update my profile or log out?",
+        "ta": "சுயவிவரத்தை மாற்றவோ வெளியேறவோ முடியுமா?"
+      },
+      "answer": {
+        "en": "Customer profile/settings and logout are proposed features of the full app. They are not active account controls in this chatbot prototype.",
+        "ta": "வாடிக்கையாளர் சுயவிவரம், அமைப்புகள், வெளியேறும் வசதி ஆகியவை முழுச் செயலிக்கான திட்டமிடப்பட்ட அம்சங்கள். இந்த மாதிரி உரையாடல் உதவியாளரில் அவை இயங்கவில்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-011",
+      "topic": "problems",
+      "status": "planned",
+      "question": {
+        "en": "How do I describe my service problem?",
+        "ta": "என் சேவைப் பிரச்சினையை எப்படி விளக்குவது?"
+      },
+      "answer": {
+        "en": "In the proposed app, choose a service category and describe the specific issue. For example: “My motorcycle will not start” or “The kitchen pipe is leaking.” This prototype can collect descriptions in chat.",
+        "ta": "திட்டமிடப்பட்ட செயலியில் சேவை வகையைத் தேர்ந்து குறிப்பிட்ட பிரச்சினையை எழுதலாம். உதாரணம்: “என் மோட்டார் சைக்கிள் ஸ்டார்ட் ஆகவில்லை” அல்லது “சமையலறைக் குழாயில் நீர் கசிகிறது.” இந்த மாதிரி உரையாடல் உதவியாளரில் விவரத்தைச் சொல்லலாம்."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-012",
+      "topic": "problems",
+      "status": "planned",
+      "question": {
+        "en": "What mechanic problems can I report?",
+        "ta": "வாகனப் பழுதில் என்ன பிரச்சினைகளைச் சொல்லலாம்?"
+      },
+      "answer": {
+        "en": "Examples include a vehicle not starting, a flat tyre, battery trouble, engine trouble, and a roadside issue. These are examples, not an exhaustive diagnosis.",
+        "ta": "வாகனம் ஸ்டார்ட் ஆகாதது, டயர் காற்றிழந்தது, பேட்டரி பிரச்சினை, என்ஜின் கோளாறு, சாலையோர வாகனப் பிரச்சினை போன்றவற்றைக் கூறலாம். இவை உதாரணங்கள் மட்டுமே; முழுமையான நோயறிதல் அல்ல."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-013",
+      "topic": "problems",
+      "status": "planned",
+      "question": {
+        "en": "What plumbing problems can I report?",
+        "ta": "குழாய்ப்பணிக்காக என்ன பிரச்சினைகளைச் சொல்லலாம்?"
+      },
+      "answer": {
+        "en": "Examples include leaking pipes, no water, a faulty tap, a blocked toilet, and water-tank problems.",
+        "ta": "குழாயில் கசிவு, தண்ணீர் வராமை, குழாய் திறப்பான் கோளாறு, கழிப்பறை அடைப்பு, நீர்த்தொட்டி பிரச்சினை போன்றவற்றைக் கூறலாம்."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-014",
+      "topic": "problems",
+      "status": "planned",
+      "question": {
+        "en": "Can I send a photo of the problem?",
+        "ta": "பிரச்சினையின் புகைப்படத்தை அனுப்பலாமா?"
+      },
+      "answer": {
+        "en": "Photo attachments are listed as an optional later feature. They should not be presented as available unless the team actually implements them.",
+        "ta": "புகைப்படம் இணைப்பது எதிர்கால விருப்ப அம்சமாகக் குறிப்பிடப்பட்டுள்ளது. அது செயல்படுத்தப்பட்ட பின்னரே பயன்படுத்தலாம் என்று கூற வேண்டும்."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-015",
+      "topic": "problems",
+      "status": "prototype",
+      "question": {
+        "en": "Can the chatbot diagnose a repair accurately?",
+        "ta": "உரையாடல் உதவியாளர் பழுதை உறுதியாகக் கண்டறியுமா?"
+      },
+      "answer": {
+        "en": "No. Keyword and rule matching can suggest a likely service category but cannot confirm the cause or replace a qualified technician. It should ask follow-up questions when uncertain.",
+        "ta": "முடியாது. விதிகள் மற்றும் முக்கியச் சொற்கள் மூலம் பொருத்தமான சேவை வகையைப் பரிந்துரைக்கலாம்; உண்மையான காரணத்தை உறுதிப்படுத்தவோ நிபுணரை மாற்றவோ முடியாது. தெளிவில்லாதபோது கூடுதல் தகவல் கேட்க வேண்டும்."
+      },
+      "source": "prototype"
+    },
+    {
+      "id": "NF-FAQ-016",
+      "topic": "provider",
+      "status": "planned",
+      "question": {
+        "en": "How will NearFix find nearby providers?",
+        "ta": "அருகிலுள்ள சேவை வழங்குநர்களை NearFix எப்படி கண்டுபிடிக்கும்?"
+      },
+      "answer": {
+        "en": "The proposed full app will use the service category, customer location, provider service area, and availability to identify candidates. Distance and ratings may help rank results when reliable data exists.",
+        "ta": "முழுச் செயலியில் சேவை வகை, வாடிக்கையாளர் இடம், வழங்குநரின் சேவைப் பகுதி மற்றும் கிடைப்புத் தன்மை ஆகியவற்றைப் பயன்படுத்திப் பொருத்தமானவர்களைத் தேடத் திட்டமிடப்பட்டுள்ளது. நம்பகமான தரவு இருந்தால் தூரமும் மதிப்பீடும் பயன்படுத்தப்படலாம்."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-017",
+      "topic": "provider",
+      "status": "planned",
+      "question": {
+        "en": "Can I see provider ratings and availability?",
+        "ta": "வழங்குநரின் மதிப்பீடும் கிடைப்புத் தன்மையும் பார்க்க முடியுமா?"
+      },
+      "answer": {
+        "en": "Provider profile, distance, rating, and availability are planned display fields for the full app. The demo does not have verified live profiles or availability.",
+        "ta": "வழங்குநரின் சுயவிவரம், தூரம், மதிப்பீடு, கிடைப்புத் தன்மை ஆகியவற்றை முழுச் செயலியில் காட்டத் திட்டமிடப்பட்டுள்ளது. மாதிரியில் உறுதிசெய்யப்பட்ட நேரடி தகவல்கள் இல்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-018",
+      "topic": "provider",
+      "status": "prototype",
+      "question": {
+        "en": "Are the suggested providers real?",
+        "ta": "பரிந்துரைக்கப்படும் வழங்குநர்கள் உண்மையானவர்களா?"
+      },
+      "answer": {
+        "en": "No. Providers in the current JSON demonstration are fictional records for testing; their contact details and availability must not be treated as real.",
+        "ta": "இல்லை. தற்போதைய JSON மாதிரியில் உள்ள வழங்குநர்கள் சோதனைக்கான கற்பனைப் பதிவுகள். அவர்களின் தொடர்பு விவரங்களையோ கிடைப்புத் தன்மையையோ உண்மையானதாகக் கருதக்கூடாது."
+      },
+      "source": "prototype"
+    },
+    {
+      "id": "NF-FAQ-019",
+      "topic": "provider",
+      "status": "planned",
+      "question": {
+        "en": "What happens if no provider is found?",
+        "ta": "வழங்குநர் யாரும் கிடைக்காவிட்டால் என்ன செய்வது?"
+      },
+      "answer": {
+        "en": "The full app should show that no suitable provider was found and may allow changing location or service category. This chatbot can ask for another area; it must not invent a match.",
+        "ta": "பொருத்தமான வழங்குநர் இல்லை என்பதைத் தெளிவாகக் காட்டி, இடத்தையோ சேவை வகையையோ மாற்ற வாய்ப்பு தர வேண்டும். இந்த உதவியாளர் வேறு பகுதியைக் கேட்கலாம்; இல்லாத வழங்குநரை உருவாக்கக் கூடாது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-020",
+      "topic": "provider",
+      "status": "planned",
+      "question": {
+        "en": "Are providers verified?",
+        "ta": "சேவை வழங்குநர்கள் சரிபார்க்கப்பட்டவர்களா?"
+      },
+      "answer": {
+        "en": "Provider verification is described as an optional advanced feature, not a confirmed live guarantee. Never assume every listed provider has passed verification.",
+        "ta": "வழங்குநர் சரிபார்ப்பு எதிர்கால விருப்ப அம்சமாகக் குறிப்பிடப்பட்டுள்ளது. எல்லா வழங்குநர்களும் சரிபார்க்கப்பட்டுள்ளனர் என்று உறுதி அளிக்கக் கூடாது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-021",
+      "topic": "location",
+      "status": "planned",
+      "question": {
+        "en": "How do I share my location?",
+        "ta": "என் இருப்பிடத்தை எப்படி பகிர்வது?"
+      },
+      "answer": {
+        "en": "The proposed full app may request device location permission or let you enter an area manually. The current chatbot can accept a typed town or area but does not verify precise GPS coordinates.",
+        "ta": "முழுச் செயலியில் அனுமதியுடன் சாதன இருப்பிடத்தைப் பெறவோ பகுதியை கையால் உள்ளிடவோ திட்டமிடப்பட்டுள்ளது. தற்போதைய உதவியாளர் ஊர் அல்லது பகுதியை உரையாகப் பெறலாம்; துல்லியமான GPS இடத்தை உறுதிசெய்யாது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-022",
+      "topic": "location",
+      "status": "planned",
+      "question": {
+        "en": "What if I deny location permission?",
+        "ta": "இருப்பிட அனுமதியை மறுத்தால் என்ன ஆகும்?"
+      },
+      "answer": {
+        "en": "Manual location entry should be offered when possible. Automatic nearby ranking may be less accurate without reliable location data.",
+        "ta": "முடிந்தவரை பகுதியை கையால் உள்ளிடும் வழி வழங்கப்பட வேண்டும். நம்பகமான இருப்பிடத் தரவு இல்லாதபோது அருகிலுள்ள வழங்குநர் தரவரிசை குறைவாகத் துல்லியமாக இருக்கலாம்."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-023",
+      "topic": "location",
+      "status": "not_live",
+      "question": {
+        "en": "Can NearFix track a provider live?",
+        "ta": "வழங்குநரின் இடத்தை நேரடியாகக் கண்காணிக்க முடியுமா?"
+      },
+      "answer": {
+        "en": "Live map tracking is an optional future feature. It is not available in the standalone chatbot prototype.",
+        "ta": "வரைபடத்தில் நேரடி கண்காணிப்பு எதிர்கால விருப்ப அம்சம். தற்போதைய தனித்த உரையாடல் மாதிரியில் அது இல்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-024",
+      "topic": "location",
+      "status": "not_live",
+      "question": {
+        "en": "Can the chatbot tell me an exact arrival time?",
+        "ta": "வழங்குநர் வரும் துல்லியமான நேரத்தை உதவியாளர் சொல்லுமா?"
+      },
+      "answer": {
+        "en": "No. Reliable arrival estimates would require live location and trustworthy travel data. The chatbot must not promise an ETA.",
+        "ta": "முடியாது. நம்பகமான வருகை நேரத்துக்கு நேரடி இருப்பிடமும் பயணத் தரவும் தேவை. இந்த உதவியாளர் உறுதியான நேரம் கூறக் கூடாது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-025",
+      "topic": "booking",
+      "status": "planned",
+      "question": {
+        "en": "How will I book a service?",
+        "ta": "சேவையை எப்படி முன்பதிவு செய்வது?"
+      },
+      "answer": {
+        "en": "The planned process is: choose service, describe problem, set location, inspect providers, send a request, wait for acceptance, connect, complete the job, and leave a review. The prototype cannot submit a real booking.",
+        "ta": "திட்டமிடப்பட்ட நடைமுறை: சேவை வகை தேர்வு, பிரச்சினை விளக்கம், இடம் பதிவு, வழங்குநர் விவரம் பார்வை, கோரிக்கை அனுப்புதல், ஒப்புதல் பெறுதல், தொடர்பு கொள்ளுதல், வேலை முடித்தல், மதிப்புரை இடுதல். மாதிரியில் உண்மையான முன்பதிவு இல்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-026",
+      "topic": "booking",
+      "status": "planned",
+      "question": {
+        "en": "What happens after I send a service request?",
+        "ta": "சேவைக் கோரிக்கை அனுப்பிய பிறகு என்ன நடக்கும்?"
+      },
+      "answer": {
+        "en": "A provider is expected to receive the request and accept or reject it. If accepted, the customer can connect according to the implemented contact feature.",
+        "ta": "வழங்குநர் கோரிக்கையைப் பெற்று ஏற்கவோ மறுக்கவோ திட்டமிடப்பட்டுள்ளது. ஏற்றால் செயலியில் நடைமுறைக்கு வந்த தொடர்பு வசதியின் மூலம் வாடிக்கையாளர் தொடர்பு கொள்ளலாம்."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-027",
+      "topic": "booking",
+      "status": "planned",
+      "question": {
+        "en": "What are the booking statuses?",
+        "ta": "சேவைக் கோரிக்கையின் நிலைகள் என்ன?"
+      },
+      "answer": {
+        "en": "Possible planned statuses include Pending, Accepted, Rejected, In Progress, Completed, and Cancelled. The final list will depend on the implemented workflow.",
+        "ta": "காத்திருக்கிறது, ஏற்கப்பட்டது, நிராகரிக்கப்பட்டது, வேலை நடைபெறுகிறது, முடிந்தது, ரத்து செய்யப்பட்டது போன்ற நிலைகள் திட்டமிடப்பட்டுள்ளன. இறுதிப் பட்டியல் செயல்படுத்தப்படும் நடைமுறையைப் பொறுத்தது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-028",
+      "topic": "booking",
+      "status": "not_live",
+      "question": {
+        "en": "Can you create or confirm my booking now?",
+        "ta": "இப்போது எனக்காக முன்பதிவு செய்ய முடியுமா?"
+      },
+      "answer": {
+        "en": "No. This is a standalone demo chatbot. A service-request summary is not a booking confirmation, and no real provider receives the request.",
+        "ta": "முடியாது. இது தனித்த சோதனை உரையாடல் உதவியாளர். சேவைக் கோரிக்கைச் சுருக்கம் முன்பதிவு உறுதிப்படுத்தல் அல்ல; எந்த உண்மையான வழங்குநருக்கும் கோரிக்கை அனுப்பப்படாது."
+      },
+      "source": "prototype"
+    },
+    {
+      "id": "NF-FAQ-029",
+      "topic": "booking",
+      "status": "planned",
+      "question": {
+        "en": "Can I call or chat with the provider?",
+        "ta": "வழங்குநரிடம் அழைக்கவோ உரையாடவோ முடியுமா?"
+      },
+      "answer": {
+        "en": "The proposed app includes basic customer-provider contact after acceptance. Direct calling and real-time chat depend on which contact features the team implements.",
+        "ta": "வழங்குநர் கோரிக்கையை ஏற்ற பிறகு தொடர்பு கொள்ளும் வசதி திட்டமிடப்பட்டுள்ளது. தொலைபேசி அழைப்பும் நேரடி செய்தி பரிமாற்றமும் உருவாக்கப்படும் வசதிகளைப் பொறுத்தது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-030",
+      "topic": "booking",
+      "status": "planned",
+      "question": {
+        "en": "Can I cancel my service request?",
+        "ta": "சேவைக் கோரிக்கையை ரத்து செய்ய முடியுமா?"
+      },
+      "answer": {
+        "en": "Cancellation is a planned status and handling requirement. The exact cancellation policy, eligibility, and deadlines are not finalized.",
+        "ta": "ரத்து செய்யும் நிலையும் அதற்கான நடைமுறையும் திட்டமிடப்பட்டுள்ளது. ரத்து செய்வதற்கான தகுதி, காலவரம்பு, விதிகள் இன்னும் இறுதி செய்யப்படவில்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-031",
+      "topic": "booking",
+      "status": "planned",
+      "question": {
+        "en": "Can I see previous bookings?",
+        "ta": "முந்தைய சேவைக் கோரிக்கைகளைப் பார்க்க முடியுமா?"
+      },
+      "answer": {
+        "en": "Service-request history is a proposed customer feature. There is no live account history in the current standalone chatbot.",
+        "ta": "கோரிக்கை வரலாறு முழுச் செயலிக்கான திட்டமிடப்பட்ட அம்சம். தற்போதைய தனித்த உதவியாளரில் உண்மையான கணக்கு வரலாறு இல்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-032",
+      "topic": "booking",
+      "status": "planned",
+      "question": {
+        "en": "Can I rate or review a provider?",
+        "ta": "சேவை வழங்குநருக்கு மதிப்பீடு அல்லது கருத்து தரலாமா?"
+      },
+      "answer": {
+        "en": "After a completed job, the proposed app will allow customers to rate and review providers. The prototype cannot publish real reviews.",
+        "ta": "வேலை முடிந்த பிறகு மதிப்பீடும் கருத்தும் வழங்கும் வசதி திட்டமிடப்பட்டுள்ளது. மாதிரியிலிருந்து உண்மையான மதிப்புரைகளை வெளியிட முடியாது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-033",
+      "topic": "booking",
+      "status": "not_live",
+      "question": {
+        "en": "Can the chatbot check the status of my real job?",
+        "ta": "என் உண்மையான சேவைக் கோரிக்கையின் நிலையை அறிய முடியுமா?"
+      },
+      "answer": {
+        "en": "No. The prototype is not connected to an authenticated booking database, so it cannot retrieve real request statuses.",
+        "ta": "முடியாது. தற்போதைய மாதிரி உள்நுழைவு செய்யப்பட்ட முன்பதிவு தரவுத்தளத்துடன் இணைக்கப்படவில்லை; உண்மையான நிலையைப் பெற முடியாது."
+      },
+      "source": "prototype"
+    },
+    {
+      "id": "NF-FAQ-034",
+      "topic": "pricing",
+      "status": "planned",
+      "question": {
+        "en": "How much will a repair cost?",
+        "ta": "பழுதுபார்ப்புக்கு எவ்வளவு செலவாகும்?"
+      },
+      "answer": {
+        "en": "NearFix does not specify fixed repair prices. The final amount depends on the provider, work, and materials. A quote and approval process is proposed, not live in this chatbot.",
+        "ta": "NearFix ஆவணங்களில் நிலையான பழுதுபார்ப்பு விலைகள் குறிப்பிடப்படவில்லை. வழங்குநர், வேலை, பொருட்கள் ஆகியவற்றைப் பொறுத்தே தொகை மாறும். விலை முன்மொழிவு மற்றும் ஒப்புதல் நடைமுறை திட்டமிடப்பட்டுள்ளது; இந்த மாதிரியில் இயங்கவில்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-035",
+      "topic": "pricing",
+      "status": "planned",
+      "question": {
+        "en": "Will I see labor and material costs separately?",
+        "ta": "வேலைக் கூலியும் பொருட் செலவும் தனித்தனியாகக் காட்டப்படுமா?"
+      },
+      "answer": {
+        "en": "The planned NearFix booking flow may include a service quotation and cost breakdown, but the final pricing and invoice format are not confirmed. This chatbot cannot calculate or approve an actual repair invoice.",
+        "ta": "திட்டமிடப்பட்ட NearFix முன்பதிவு முறையில் சேவைக்கான மதிப்பீடும் செலவுப் பிரிவுகளும் இருக்கலாம். ஆனால் இறுதி விலை மற்றும் ரசீது வடிவம் உறுதிப்படுத்தப்படவில்லை. இந்த உரையாடல் உதவியாளர் உண்மையான பழுதுபார்ப்பு கட்டணத்தைக் கணக்கிடவோ அங்கீகரிக்கவோ முடியாது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-036",
+      "topic": "pricing",
+      "status": "planned",
+      "question": {
+        "en": "Does NearFix charge customers a subscription?",
+        "ta": "NearFix வாடிக்கையாளரிடம் மாதச் சந்தா வசூலிக்குமா?"
+      },
+      "answer": {
+        "en": "A confirmed NearFix customer subscription or fee policy is not specified in the standalone nearby-services proposal. The chatbot prototype does not charge or collect payments.",
+        "ta": "தனித்த அருகிலுள்ள சேவைத் திட்ட ஆவணத்தில் NearFix வாடிக்கையாளர் சந்தா அல்லது கட்டணக் கொள்கை உறுதியாகக் குறிப்பிடப்படவில்லை. தற்போதைய உரையாடல் மாதிரி பணம் வசூலிப்பதில்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-039",
+      "topic": "pricing",
+      "status": "not_live",
+      "question": {
+        "en": "Can I pay online through this chatbot?",
+        "ta": "இந்த உரையாடல் உதவியாளர் மூலம் இணையத்தில் பணம் செலுத்த முடியுமா?"
+      },
+      "answer": {
+        "en": "No. Live payment gateway integration is not implemented in the standalone prototype. Future payment methods and settlement rules remain to be finalized.",
+        "ta": "முடியாது. தற்போதைய தனித்த மாதிரியில் நேரடி கட்டண வசதி இல்லை. எதிர்காலக் கட்டண முறைகளும் பணப் பரிமாற்ற விதிகளும் இன்னும் இறுதி செய்யப்படவில்லை."
+      },
+      "source": "prototype"
+    },
+    {
+      "id": "NF-FAQ-040",
+      "topic": "pricing",
+      "status": "planned",
+      "question": {
+        "en": "Will I receive a receipt?",
+        "ta": "ரசீது கிடைக்குமா?"
+      },
+      "answer": {
+        "en": "Receipts may be part of a future NearFix booking/payment flow, but this standalone chatbot does not issue real receipts.",
+        "ta": "எதிர்கால NearFix சேவை முன்பதிவு அல்லது கட்டண முறையில் ரசீது வழங்கப்படலாம். ஆனால் இந்த தனித்த உரையாடல் மாதிரி உண்மையான ரசீது வழங்காது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-041",
+      "topic": "pricing",
+      "status": "undecided",
+      "question": {
+        "en": "What is the refund or dispute policy?",
+        "ta": "பணத்தைத் திரும்பப் பெறும் அல்லது புகார் அளிக்கும் விதி என்ன?"
+      },
+      "answer": {
+        "en": "The NearFix-specific cancellation, refund, and dispute policy has not been finalized in the available project specification. This prototype cannot process refunds or resolve disputes.",
+        "ta": "கிடைக்கக்கூடிய NearFix திட்ட ஆவணங்களில் ரத்து, பணத்திருப்பு, புகார் தீர்வு விதிகள் இன்னும் உறுதியாக இறுதிசெய்யப்படவில்லை. இந்த மாதிரி பணத்திருப்பையோ புகார் தீர்வையோ செயல்படுத்தாது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-042",
+      "topic": "safety",
+      "status": "planned",
+      "question": {
+        "en": "Is there an urgent Need Help Now feature?",
+        "ta": "அவசரமாக உதவி கேட்கும் வசதி உள்ளதா?"
+      },
+      "answer": {
+        "en": "An urgent service-request button is optional in the nearby-service proposal. It is intended to prioritize commercial service requests, not replace official emergency services, and is not live in the prototype.",
+        "ta": "அவசர சேவைக் கோரிக்கை பொத்தான் அருகிலுள்ள சேவைச் செயலிக்கான விருப்ப அம்சமாகக் குறிப்பிடப்பட்டுள்ளது. அது வணிகச் சேவைக் கோரிக்கைக்கு முன்னுரிமை தருவதற்கே; அதிகாரப்பூர்வ அவசரச் சேவைகளுக்கு மாற்றாக அல்ல. மாதிரியில் இயங்கவில்லை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-043",
+      "topic": "safety",
+      "status": "safety",
+      "question": {
+        "en": "What should I do in immediate danger?",
+        "ta": "உடனடி ஆபத்து ஏற்பட்டால் என்ன செய்ய வேண்டும்?"
+      },
+      "answer": {
+        "en": "If there is fire, serious injury, electrical danger, or another immediate threat, move to safety if possible and contact the appropriate official local emergency service. This chatbot cannot dispatch rescue or verify that help is coming.",
+        "ta": "தீ, கடுமையான காயம், மின்சார ஆபத்து அல்லது வேறு உடனடி ஆபத்து இருந்தால் முடிந்தவரை பாதுகாப்பான இடத்துக்குச் சென்று பொருத்தமான அதிகாரப்பூர்வ உள்ளூர் அவசரச் சேவையைத் தொடர்பு கொள்ளுங்கள். இந்த உதவியாளர் மீட்புக்குழுவை அனுப்பவோ உதவி வருவதை உறுதிப்படுத்தவோ முடியாது."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-044",
+      "topic": "safety",
+      "status": "planned",
+      "question": {
+        "en": "Who can see my location and contact details?",
+        "ta": "என் இருப்பிடமும் தொடர்பு விவரங்களும் யாருக்குத் தெரியும்?"
+      },
+      "answer": {
+        "en": "The project requires role-based protection of sensitive customer information. Precise location should only be accessible to authorized users when needed, not unrelated providers.",
+        "ta": "வாடிக்கையாளரின் தனிப்பட்ட தகவல்களுக்கு அனுமதி அடிப்படையிலான பாதுகாப்பு தேவை. துல்லியமான இருப்பிடம் தேவையானபோது அனுமதி பெற்றவர்களுக்கே தெரிந்திருக்க வேண்டும்; தொடர்பில்லாத வழங்குநர்களுக்கு அல்ல."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-045",
+      "topic": "safety",
+      "status": "planned",
+      "question": {
+        "en": "What happens if the internet is unavailable?",
+        "ta": "இணையம் இல்லாவிட்டால் என்ன நடக்கும்?"
+      },
+      "answer": {
+        "en": "The full project should handle network failures. The current FAQ and locally stored demo data can work offline after being bundled, but real booking, notifications, or live search would require the relevant infrastructure and connectivity.",
+        "ta": "முழுச் செயலியில் இணையத் தடைகளைச் சரியாகக் கையாள வேண்டும். உள்ளூரில் சேமிக்கப்பட்ட கேள்வி-பதில்களும் மாதிரித் தரவும் செயலியில் சேர்க்கப்பட்டிருந்தால் இணையமின்றி இயங்கலாம்; உண்மையான முன்பதிவு, அறிவிப்பு, நேரடி தேடல் ஆகியவற்றுக்கு உரிய இணைப்பு தேவை."
+      },
+      "source": "nearfix_service_app"
+    },
+    {
+      "id": "NF-FAQ-046",
+      "topic": "safety",
+      "status": "undecided",
+      "question": {
+        "en": "Does NearFix guarantee provider arrival?",
+        "ta": "வழங்குநர் கண்டிப்பாக வருவார் என்று NearFix உறுதி தருமா?"
+      },
+      "answer": {
+        "en": "No. The proposed app aims to connect customers and providers, but no guaranteed response time or arrival time has been established.",
+        "ta": "இல்லை. வாடிக்கையாளரையும் வழங்குநரையும் இணைப்பதே திட்டத்தின் நோக்கம். உறுதியான பதில் நேரமோ வருகை நேரமோ நிர்ணயிக்கப்படவில்லை."
+      },
+      "source": "nearfix_service_app"
+    }
+  ],
+  "scope_notice": {
+    "en": "Only NearFix customer services and FAQs. Do not provide content about unrelated platforms or humanitarian modules.",
+    "ta": "NearFix வாடிக்கையாளர் சேவைகள் மற்றும் அடிக்கடி கேட்கப்படும் கேள்விகள் மட்டும். தொடர்பில்லாத திட்டங்களைக் குறித்து விவரிக்க வேண்டாம்."
+  }
+}
